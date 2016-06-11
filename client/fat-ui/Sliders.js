@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Slide from '../src/Slide';
-import Slider from '../src/Slider';
+import Slide from '../ui/Slide';
+import Slider from '../ui/Slider';
 
 export default
 <Slider>

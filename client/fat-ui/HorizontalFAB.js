@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../src/Button';
+import Button from '../ui/Button';
 
 export default
 <Button floating fab='horizontal' icon='mode_edit' className='red' large style={{bottom: '45px', right: '24px'}}>

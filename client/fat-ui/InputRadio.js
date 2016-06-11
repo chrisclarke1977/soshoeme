@@ -1,5 +1,5 @@
 import React from 'react';
-import Input from '../src/Input';
+import Input from '../ui/Input';
 
 export default
 <div>

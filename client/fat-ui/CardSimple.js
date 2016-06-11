@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from '../src/Card';
-import Col from '../src/Col';
+import Card from '../ui/Card';
+import Col from '../ui/Col';
 
 export default
 <Col m={6} s={12}>

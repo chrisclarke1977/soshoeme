@@ -1,7 +1,7 @@
 import React from 'react';
-import Button from '../src/Button';
-import Dropdown from '../src/Dropdown';
-import NavItem from '../src/NavItem';
+import Button from '../ui/Button';
+import Dropdown from '../ui/Dropdown';
+import NavItem from '../ui/NavItem';
 
 export default
 <Dropdown trigger={

@@ -1,6 +1,6 @@
 import React from 'react';
-import Input from '../src/Input';
-import Row from '../src/Row';
+import Input from '../ui/Input';
+import Row from '../ui/Row';
 
 export default
 <Row>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Toast from '../src/Toast';
+import Toast from '../ui/Toast';
 
 export default
 <Toast toast="here you go!">

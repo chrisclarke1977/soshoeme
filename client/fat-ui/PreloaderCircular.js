@@ -1,7 +1,7 @@
 import React from 'react';
-import Row from '../src/Row';
-import Col from '../src/Col';
-import Preloader from '../src/Preloader';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
+import Preloader from '../ui/Preloader';
 
 export default
 <Row>

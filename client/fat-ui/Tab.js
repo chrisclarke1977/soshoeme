@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Tabs from '../src/Tabs';
-import Tab from '../src/Tab';
+import Tabs from '../ui/Tabs';
+import Tab from '../ui/Tab';
 
 export default
 <Tabs className='tab-demo z-depth-1'>

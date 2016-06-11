@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Table from '../src/Table';
+import Table from '../ui/Table';
 
 export default
 <Table>

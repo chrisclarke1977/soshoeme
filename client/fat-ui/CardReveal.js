@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Card from '../src/Card';
-import CardTitle from '../src/CardTitle';
-import Icon from '../src/Icon';
+import Card from '../ui/Card';
+import CardTitle from '../ui/CardTitle';
+import Icon from '../ui/Icon';
 
 export default
 <Card header={<CardTitle reveal image={"assets/office.jpg"} waves='light'/>}

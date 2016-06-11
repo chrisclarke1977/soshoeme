@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../src/Button';
+import Button from '../ui/Button';
 
 export default
 <Button flat waves='light'>Button</Button>;

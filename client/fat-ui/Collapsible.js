@@ -1,6 +1,6 @@
 import React from 'react';
-import Collapsible from '../src/Collapsible';
-import CollapsibleItem from '../src/CollapsibleItem';
+import Collapsible from '../ui/Collapsible';
+import CollapsibleItem from '../ui/CollapsibleItem';
 
 export default
 <Collapsible popout>

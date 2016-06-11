@@ -1,8 +1,8 @@
 import React from 'react';
-import Row from '../src/Row';
-import Col from '../src/Col';
-import Chip from '../src/Chip';
-import Tag from '../src/Tag';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
+import Chip from '../ui/Chip';
+import Tag from '../ui/Tag';
 
 export default
 <Row>

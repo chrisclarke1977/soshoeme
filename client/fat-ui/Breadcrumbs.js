@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Breadcrumb from '../src/Breadcrumb';
-import MenuItem from '../src/MenuItem';
+import Breadcrumb from '../ui/Breadcrumb';
+import MenuItem from '../ui/MenuItem';
 
 export default
 <Breadcrumb>

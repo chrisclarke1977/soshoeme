@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from '../src/Button';
-import Icon from '../src/Icon';
+import Button from '../ui/Button';
+import Icon from '../ui/Icon';
 
 export default
 <div>

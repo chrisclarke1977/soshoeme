@@ -1,9 +1,9 @@
 import React from 'react';
-import Badge from '../src/Badge';
-import Button from '../src/Button';
-import Dropdown from '../src/Dropdown';
-import Icon from '../src/Icon';
-import NavItem from '../src/NavItem';
+import Badge from '../ui/Badge';
+import Button from '../ui/Button';
+import Dropdown from '../ui/Dropdown';
+import Icon from '../ui/Icon';
+import NavItem from '../ui/NavItem';
 
 export default
 <Dropdown

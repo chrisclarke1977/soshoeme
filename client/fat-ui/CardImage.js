@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from '../src/Card';
-import CardTitle from '../src/CardTitle';
+import Card from '../ui/Card';
+import CardTitle from '../ui/CardTitle';
 
 export default
 <Card className='small'

@@ -1,7 +1,7 @@
 import React from 'react';
-import Row from '../src/Row';
-import Col from '../src/Col';
-import ProgressBar from '../src/ProgressBar';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
+import ProgressBar from '../ui/ProgressBar';
 
 export default
 <Row>

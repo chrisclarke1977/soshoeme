@@ -1,7 +1,7 @@
 import React from 'react';
-import CardPanel from '../src/CardPanel';
-import Col from '../src/Col';
-import Row from '../src/Row';
+import CardPanel from '../ui/CardPanel';
+import Col from '../ui/Col';
+import Row from '../ui/Row';
 
 export default
 <Row>

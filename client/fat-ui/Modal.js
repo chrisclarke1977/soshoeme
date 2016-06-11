@@ -1,6 +1,6 @@
 import React from 'react';
-import Modal from '../src/Modal';
-import Button from '../src/Button';
+import Modal from '../ui/Modal';
+import Button from '../ui/Button';
 
 export default
 <Modal

@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../src/Navbar';
-import NavItem from '../src/NavItem';
+import Navbar from '../ui/Navbar';
+import NavItem from '../ui/NavItem';
 
 export default
 <Navbar brand='logo' left>

@@ -1,7 +1,7 @@
 import React from 'react';
-import Input from '../src/Input';
-import Row from '../src/Row';
-import Icon from '../src/Icon';
+import Input from '../ui/Input';
+import Row from '../ui/Row';
+import Icon from '../ui/Icon';
 
 export default
 <Row>
