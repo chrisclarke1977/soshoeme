@@ -10,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --colors --progress",
-    "start": "webpack-dev-server --config webpack.config.js --progress --colors --host $IP --port $PORT"
+    "c9": "webpack-dev-server --config webpack.config.js --progress --colors --host $IP --port $PORT",
+    "start": "webpack-dev-server --config webpack.config.js --progress --colors"
   },
   "author": "Chris Clarke",
   "license": "ISC",
