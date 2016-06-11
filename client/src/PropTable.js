@@ -1,6 +1,6 @@
 // Shameless copied from react-bootstrap
 import React from 'react';
-import Table from '../../src/Table';
+import Table from '../ui/Table';
 
 let cleanDocletValue = str => str.trim().replace(/^\{/, '').replace(/\}$/, '');
 let capitalize = str => str[0].toUpperCase() + str.substr(1);

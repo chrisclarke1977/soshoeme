@@ -1,17 +1,17 @@
 import React from 'react';
-import Row from '../../src/Row';
-import Col from '../../src/Col';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
 import ReactPlayground from './ReactPlayground';
 import PropTable from './PropTable';
 import store from './store';
 import Samples from './Samples';
-import iconPrefixesInput from '../../examples/IconPrefixesInput';
-import inputRadio from '../../examples/InputRadio';
-import inputFields from '../../examples/InputFields';
-import inputCheckbox from '../../examples/InputCheckbox';
-import inputSwitch from '../../examples/InputSwitch';
-import prefillingTextInput from '../../examples/PrefillingTextInput';
-import selectSimple from '../../examples/SelectSimple';
+import iconPrefixesInput from '../fat-ui/IconPrefixesInput';
+import inputRadio from '../fat-ui/InputRadio';
+import inputFields from '../fat-ui/InputFields';
+import inputCheckbox from '../fat-ui/InputCheckbox';
+import inputSwitch from '../fat-ui/InputSwitch';
+import prefillingTextInput from '../fat-ui/PrefillingTextInput';
+import selectSimple from '../fat-ui/SelectSimple';
 
 class FormsPage extends React.Component {
   componentDidMount() {

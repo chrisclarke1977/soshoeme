@@ -1,14 +1,14 @@
 import React from 'react';
-import Row from '../../src/Row';
-import Col from '../../src/Col';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
 import ReactPlayground from './ReactPlayground';
 import PropTable from './PropTable';
 import store from './store';
 import Samples from './Samples';
 
-import collectionBasic from '../../examples/CollectionBasic';
-import collectionWithHeader from '../../examples/CollectionWithHeader';
-import collectionWithHref from '../../examples/CollectionWithHref';
+import collectionBasic from '../fat-ui/CollectionBasic';
+import collectionWithHeader from '../fat-ui/CollectionWithHeader';
+import collectionWithHref from '../fat-ui/CollectionWithHref';
 const component = 'Collection';
 
 class CollectionsPage extends React.Component {

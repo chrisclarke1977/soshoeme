@@ -1,13 +1,13 @@
 import React from 'react';
-import Row from '../../src/Row';
-import Col from '../../src/Col';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
 import ReactPlayground from './ReactPlayground';
 import PropTable from './PropTable';
 import store from './store';
 import Samples from './Samples';
-import modal from '../../examples/Modal';
-import modalWithBottomSheet from '../../examples/ModalWithBottomSheet';
-import modalWithFixedFooter from '../../examples/ModalWithFixedFooter';
+import modal from '../fat-ui/Modal';
+import modalWithBottomSheet from '../fat-ui/ModalWithBottomSheet';
+import modalWithFixedFooter from '../fat-ui/ModalWithFixedFooter';
 
 class TabsPage extends React.Component {
   componentDidMount() {

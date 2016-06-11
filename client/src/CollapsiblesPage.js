@@ -1,11 +1,11 @@
 import React from 'react';
-import Row from '../../src/Row';
-import Col from '../../src/Col';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
 import ReactPlayground from './ReactPlayground';
 import PropTable from './PropTable';
 import store from './store';
 import Samples from './Samples';
-import collapsible from '../../examples/Collapsible';
+import collapsible from '../fat-ui/Collapsible';
 
 class CollapsiblesPage extends React.Component {
   componentDidMount() {

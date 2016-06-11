@@ -1,12 +1,12 @@
 import React from 'react';
-import Row from '../../src/Row';
-import Col from '../../src/Col';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
 import ReactPlayground from './ReactPlayground';
 import PropTable from './PropTable';
 import store from './store';
 import Samples from './Samples';
-import mediaBox from '../../examples/MediaBox';
-import sliders from '../../examples/Sliders';
+import mediaBox from '../fat-ui/MediaBox';
+import sliders from '../fat-ui/Sliders';
 
 class TablesPage extends React.Component {
   componentDidMount() {

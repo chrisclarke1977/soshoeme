@@ -1,13 +1,13 @@
 import React from 'react';
-import Row from '../../src/Row';
-import Col from '../../src/Col';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
 import ReactPlayground from './ReactPlayground';
 import PropTable from './PropTable';
 import store from './store';
 import Samples from './Samples';
-import badgeCollections from '../../examples/BadgeCollections';
-import badgeDropdowns from '../../examples/BadgeDropdowns';
-import badgeNavbar from '../../examples/BadgeNavbar';
+import badgeCollections from '../fat-ui/BadgeCollections';
+import badgeDropdowns from '../fat-ui/BadgeDropdowns';
+import badgeNavbar from '../fat-ui/BadgeNavbar';
 
 const component = 'Badge';
 

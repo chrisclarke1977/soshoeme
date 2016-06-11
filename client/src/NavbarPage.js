@@ -1,13 +1,13 @@
 import React from 'react';
-import Row from '../../src/Row';
-import Col from '../../src/Col';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
 import ReactPlayground from './ReactPlayground';
 import PropTable from './PropTable';
 import store from './store';
 import Samples from './Samples';
-import iconLinksNavbar from '../../examples/IconLinksNavbar';
-import leftAlignedNavbar from '../../examples/LeftAlignedNavbar';
-import rightAlignedNavbar from '../../examples/RightAlignedNavbar';
+import iconLinksNavbar from '../fat-ui/IconLinksNavbar';
+import leftAlignedNavbar from '../fat-ui/LeftAlignedNavbar';
+import rightAlignedNavbar from '../fat-ui/RightAlignedNavbar';
 
 const component = 'Navbar';
 

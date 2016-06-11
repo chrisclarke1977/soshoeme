@@ -1,12 +1,12 @@
 import React from 'react';
-import Row from '../../src/Row';
-import Col from '../../src/Col';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
 import ReactPlayground from './ReactPlayground';
 import PropTable from './PropTable';
 import store from './store';
 import Samples from './Samples';
-import preloaderCircular from '../../examples/PreloaderCircular';
-import progressBars from '../../examples/ProgressBars';
+import preloaderCircular from '../fat-ui/PreloaderCircular';
+import progressBars from '../fat-ui/ProgressBars';
 
 class PreloaderPage extends React.Component {
   componentDidMount() {

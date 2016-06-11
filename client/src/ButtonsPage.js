@@ -1,14 +1,14 @@
 import React from 'react';
-import Row from '../../src/Row';
-import Col from '../../src/Col';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
 import ReactPlayground from './ReactPlayground';
 import PropTable from './PropTable';
 import store from './store';
 import Samples from './Samples';
-import raisedButton from '../../examples/RaisedButton';
-import fixedActionButton from '../../examples/FixedActionButton';
-import floatingButton from '../../examples/FloatingButton';
-import horizontalFab from '../../examples/HorizontalFAB';
+import raisedButton from '../fat-ui/RaisedButton';
+import fixedActionButton from '../fat-ui/FixedActionButton';
+import floatingButton from '../fat-ui/FloatingButton';
+import horizontalFab from '../fat-ui/HorizontalFAB';
 
 const component = 'Button';
 

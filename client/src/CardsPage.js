@@ -1,15 +1,15 @@
 import React from 'react';
-import Row from '../../src/Row';
-import Col from '../../src/Col';
+import Row from '../ui/Row';
+import Col from '../ui/Col';
 import ReactPlayground from './ReactPlayground';
 import PropTable from './PropTable';
 import store from './store';
 import Samples from './Samples';
 
-import imageCard from '../../examples/CardImage';
-import revealCard from '../../examples/CardReveal';
-import panelCard from '../../examples/CardPanel';
-import simpleCard from '../../examples/CardSimple';
+import imageCard from '../fat-ui/CardImage';
+import revealCard from '../fat-ui/CardReveal';
+import panelCard from '../fat-ui/CardPanel';
+import simpleCard from '../fat-ui/CardSimple';
 
 const component = 'Card';
 

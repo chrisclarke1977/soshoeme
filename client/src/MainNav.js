@@ -1,9 +1,9 @@
 import React from 'react';
 import cx from 'classnames';
 import store from './store';
-import Icon from '../../src/Icon';
-import Collapsible from '../../src/Collapsible';
-import CollapsibleItem from '../../src/CollapsibleItem';
+import Icon from '../ui/Icon';
+import Collapsible from '../ui/Collapsible';
+import CollapsibleItem from '../ui/CollapsibleItem';
 
 let cssComponents = {
   grid: 'Grid',
