@@ -1,0 +1,60 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+input AddFriendInput {
+  name: String!
+  tribe: String!
+  issues: Int!
+  clientMutationId: String!
+}
+
+type AddFriendPayload {
+  name: String
+  tribe: String
+  issues: Int
+  clientMutationId: String!
+}
+
+type Friend implements Node {
+  id: ID!
+  name: String
+  tribe: String
+  issues: Int
+}
+
+type FriendConnection {
+  pageInfo: PageInfo!
+  edges: [FriendEdge]
+}
+
+type FriendEdge {
+  node: Friend
+  cursor: String!
+}
+
+type Mutation {
+  addFriend(input: AddFriendInput!): AddFriendPayload
+}
+
+interface Node {
+  id: ID!
+}
+
+type PageInfo {
+  hasNextPage: Boolean!
+  hasPreviousPage: Boolean!
+  startCursor: String
+  endCursor: String
+}
+
+type Query {
+  node(id: ID!): Node
+  viewer: User
+}
+
+type User implements Node {
+  id: ID!
+  friend(after: String, first: Int, before: String, last: Int): FriendConnection
+}
